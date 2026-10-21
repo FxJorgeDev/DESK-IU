@@ -1,1 +1,3 @@
-Codigo del proyecto_DESK-IU, hecho como un trabajo final 
+Codigo del proyecto_DESK-IU, hecho como un trabajo final, frontend hecho 100% hecho con C# lado del backend esta conectado a SQL Server,
+IMPORTANTE, primero ejecutar los scripts de creacion de la base de datos, ya sea con los datos de prueba o sin ellos, segundo descargar obligatoriamente
+los entity framework dentro del visual studio
