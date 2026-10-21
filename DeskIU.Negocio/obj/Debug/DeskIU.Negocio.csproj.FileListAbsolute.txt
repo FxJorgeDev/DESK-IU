@@ -1,0 +1,28 @@
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\bin\Debug\DeskIU.Negocio.dll
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\bin\Debug\DeskIU.Negocio.pdb
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\bin\Debug\DeskIU.Datos.dll
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\bin\Debug\EntityFramework.dll
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\bin\Debug\DeskIU.Datos.pdb
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\bin\Debug\DeskIU.Datos.dll.config
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\bin\Debug\EntityFramework.xml
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\obj\Debug\DeskIU.Negocio.csproj.AssemblyReference.cache
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\obj\Debug\DeskIU.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\obj\Debug\DeskIU.N.CDC5DD10.Up2Date
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\obj\Debug\DeskIU.Negocio.dll
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Negocio\obj\Debug\DeskIU.Negocio.pdb
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\bin\Debug\DeskIU.Negocio.dll
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\bin\Debug\DeskIU.Negocio.pdb
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\bin\Debug\DeskIU.Datos.dll
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\bin\Debug\DeskIU.Datos.pdb
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\bin\Debug\DeskIU.Datos.dll.config
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\obj\Debug\DeskIU.Negocio.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\obj\Debug\DeskIU.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\obj\Debug\DeskIU.N.CDC5DD10.Up2Date
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\obj\Debug\DeskIU.Negocio.dll
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Negocio\obj\Debug\DeskIU.Negocio.pdb

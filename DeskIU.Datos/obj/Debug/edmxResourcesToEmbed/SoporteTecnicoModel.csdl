@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SoporteTecnicoDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CATEGORIA">
+    <Key>
+      <PropertyRef Name="IdCategoria" />
+    </Key>
+    <Property Name="IdCategoria" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FechaModificacion" Type="DateTime" Precision="3" />
+    <Property Name="CreadoPor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ModificadoPor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="SOLICITUD" Relationship="Self.FK__SOLICITUD__IdCat__619B8048" FromRole="CATEGORIA" ToRole="SOLICITUD" />
+  </EntityType>
+  <EntityType Name="REPORTE">
+    <Key>
+      <PropertyRef Name="IdReporte" />
+    </Key>
+    <Property Name="IdReporte" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" />
+    <Property Name="TipoReporte" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Parametros" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FechaGeneracion" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="USUARIO" Relationship="Self.FK__REPORTE__IdUsuar__6FE99F9F" FromRole="REPORTE" ToRole="USUARIO" />
+  </EntityType>
+  <EntityType Name="SEGUIMIENTO">
+    <Key>
+      <PropertyRef Name="IdSeguimiento" />
+    </Key>
+    <Property Name="IdSeguimiento" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdSolicitud" Type="Int32" Nullable="false" />
+    <Property Name="IdTecnico" Type="Int32" Nullable="false" />
+    <Property Name="EstadoAnterior" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EstadoNuevo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Comentario" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FechaCambio" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreadoPor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="SOLICITUD" Relationship="Self.FK__SEGUIMIEN__IdSol__6A30C649" FromRole="SEGUIMIENTO" ToRole="SOLICITUD" />
+    <NavigationProperty Name="TECNICO" Relationship="Self.FK__SEGUIMIEN__IdTec__6B24EA82" FromRole="SEGUIMIENTO" ToRole="TECNICO" />
+  </EntityType>
+  <EntityType Name="SOLICITUD">
+    <Key>
+      <PropertyRef Name="IdSolicitud" />
+    </Key>
+    <Property Name="IdSolicitud" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" />
+    <Property Name="IdTecnico" Type="Int32" Nullable="false" />
+    <Property Name="IdCategoria" Type="Int32" Nullable="false" />
+    <Property Name="Titulo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Estado" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Prioridad" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FechaResolucion" Type="DateTime" Precision="3" />
+    <Property Name="Observacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FechaModificacion" Type="DateTime" Precision="3" />
+    <Property Name="CreadoPor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ModificadoPor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CATEGORIA" Relationship="Self.FK__SOLICITUD__IdCat__619B8048" FromRole="SOLICITUD" ToRole="CATEGORIA" />
+    <NavigationProperty Name="SEGUIMIENTO" Relationship="Self.FK__SEGUIMIEN__IdSol__6A30C649" FromRole="SOLICITUD" ToRole="SEGUIMIENTO" />
+    <NavigationProperty Name="TECNICO" Relationship="Self.FK__SOLICITUD__IdTec__60A75C0F" FromRole="SOLICITUD" ToRole="TECNICO" />
+    <NavigationProperty Name="USUARIO" Relationship="Self.FK__SOLICITUD__IdUsu__5FB337D6" FromRole="SOLICITUD" ToRole="USUARIO" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TECNICO">
+    <Key>
+      <PropertyRef Name="IdTecnico" />
+    </Key>
+    <Property Name="IdTecnico" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Especialidad" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Disponibilidad" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FechaModificacion" Type="DateTime" Precision="3" />
+    <Property Name="CreadoPor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ModificadoPor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="SEGUIMIENTO" Relationship="Self.FK__SEGUIMIEN__IdTec__6B24EA82" FromRole="TECNICO" ToRole="SEGUIMIENTO" />
+    <NavigationProperty Name="SOLICITUD" Relationship="Self.FK__SOLICITUD__IdTec__60A75C0F" FromRole="TECNICO" ToRole="SOLICITUD" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Celular" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="TipoUsuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FechaModificacion" Type="DateTime" Precision="3" />
+    <Property Name="CreadoPor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ModificadoPor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="REPORTE" Relationship="Self.FK__REPORTE__IdUsuar__6FE99F9F" FromRole="USUARIO" ToRole="REPORTE" />
+    <NavigationProperty Name="SOLICITUD" Relationship="Self.FK__SOLICITUD__IdUsu__5FB337D6" FromRole="USUARIO" ToRole="SOLICITUD" />
+  </EntityType>
+  <Association Name="FK__SOLICITUD__IdCat__619B8048">
+    <End Role="CATEGORIA" Type="Self.CATEGORIA" Multiplicity="1" />
+    <End Role="SOLICITUD" Type="Self.SOLICITUD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORIA">
+        <PropertyRef Name="IdCategoria" />
+      </Principal>
+      <Dependent Role="SOLICITUD">
+        <PropertyRef Name="IdCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__REPORTE__IdUsuar__6FE99F9F">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="REPORTE" Type="Self.REPORTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="REPORTE">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SEGUIMIEN__IdSol__6A30C649">
+    <End Role="SOLICITUD" Type="Self.SOLICITUD" Multiplicity="1" />
+    <End Role="SEGUIMIENTO" Type="Self.SEGUIMIENTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SOLICITUD">
+        <PropertyRef Name="IdSolicitud" />
+      </Principal>
+      <Dependent Role="SEGUIMIENTO">
+        <PropertyRef Name="IdSolicitud" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SEGUIMIEN__IdTec__6B24EA82">
+    <End Role="TECNICO" Type="Self.TECNICO" Multiplicity="1" />
+    <End Role="SEGUIMIENTO" Type="Self.SEGUIMIENTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TECNICO">
+        <PropertyRef Name="IdTecnico" />
+      </Principal>
+      <Dependent Role="SEGUIMIENTO">
+        <PropertyRef Name="IdTecnico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SOLICITUD__IdTec__60A75C0F">
+    <End Role="TECNICO" Type="Self.TECNICO" Multiplicity="1" />
+    <End Role="SOLICITUD" Type="Self.SOLICITUD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TECNICO">
+        <PropertyRef Name="IdTecnico" />
+      </Principal>
+      <Dependent Role="SOLICITUD">
+        <PropertyRef Name="IdTecnico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SOLICITUD__IdUsu__5FB337D6">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="SOLICITUD" Type="Self.SOLICITUD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="SOLICITUD">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SoporteTecnicoDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CATEGORIA" EntityType="Self.CATEGORIA" />
+    <EntitySet Name="REPORTE" EntityType="Self.REPORTE" />
+    <EntitySet Name="SEGUIMIENTO" EntityType="Self.SEGUIMIENTO" />
+    <EntitySet Name="SOLICITUD" EntityType="Self.SOLICITUD" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="TECNICO" EntityType="Self.TECNICO" />
+    <EntitySet Name="USUARIO" EntityType="Self.USUARIO" />
+    <AssociationSet Name="FK__SOLICITUD__IdCat__619B8048" Association="Self.FK__SOLICITUD__IdCat__619B8048">
+      <End Role="CATEGORIA" EntitySet="CATEGORIA" />
+      <End Role="SOLICITUD" EntitySet="SOLICITUD" />
+    </AssociationSet>
+    <AssociationSet Name="FK__REPORTE__IdUsuar__6FE99F9F" Association="Self.FK__REPORTE__IdUsuar__6FE99F9F">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="REPORTE" EntitySet="REPORTE" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SEGUIMIEN__IdSol__6A30C649" Association="Self.FK__SEGUIMIEN__IdSol__6A30C649">
+      <End Role="SOLICITUD" EntitySet="SOLICITUD" />
+      <End Role="SEGUIMIENTO" EntitySet="SEGUIMIENTO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SEGUIMIEN__IdTec__6B24EA82" Association="Self.FK__SEGUIMIEN__IdTec__6B24EA82">
+      <End Role="TECNICO" EntitySet="TECNICO" />
+      <End Role="SEGUIMIENTO" EntitySet="SEGUIMIENTO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SOLICITUD__IdTec__60A75C0F" Association="Self.FK__SOLICITUD__IdTec__60A75C0F">
+      <End Role="TECNICO" EntitySet="TECNICO" />
+      <End Role="SOLICITUD" EntitySet="SOLICITUD" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SOLICITUD__IdUsu__5FB337D6" Association="Self.FK__SOLICITUD__IdUsu__5FB337D6">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="SOLICITUD" EntitySet="SOLICITUD" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

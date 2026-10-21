@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SoporteTecnicoDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CATEGORIA">
+    <Key>
+      <PropertyRef Name="IdCategoria" />
+    </Key>
+    <Property Name="IdCategoria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="200" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="datetime" />
+    <Property Name="CreadoPor" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ModificadoPor" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="REPORTE">
+    <Key>
+      <PropertyRef Name="IdReporte" />
+    </Key>
+    <Property Name="IdReporte" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdUsuario" Type="int" Nullable="false" />
+    <Property Name="TipoReporte" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Parametros" Type="text" />
+    <Property Name="FechaGeneracion" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SEGUIMIENTO">
+    <Key>
+      <PropertyRef Name="IdSeguimiento" />
+    </Key>
+    <Property Name="IdSeguimiento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdSolicitud" Type="int" Nullable="false" />
+    <Property Name="IdTecnico" Type="int" Nullable="false" />
+    <Property Name="EstadoAnterior" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="EstadoNuevo" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Comentario" Type="text" />
+    <Property Name="FechaCambio" Type="datetime" Nullable="false" />
+    <Property Name="CreadoPor" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SOLICITUD">
+    <Key>
+      <PropertyRef Name="IdSolicitud" />
+    </Key>
+    <Property Name="IdSolicitud" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdUsuario" Type="int" Nullable="false" />
+    <Property Name="IdTecnico" Type="int" Nullable="false" />
+    <Property Name="IdCategoria" Type="int" Nullable="false" />
+    <Property Name="Titulo" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Descripcion" Type="text" Nullable="false" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Prioridad" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="FechaRegistro" Type="datetime" Nullable="false" />
+    <Property Name="FechaResolucion" Type="datetime" />
+    <Property Name="Observacion" Type="text" />
+    <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="datetime" />
+    <Property Name="CreadoPor" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ModificadoPor" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TECNICO">
+    <Key>
+      <PropertyRef Name="IdTecnico" />
+    </Key>
+    <Property Name="IdTecnico" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Correo" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Especialidad" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Disponibilidad" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="datetime" />
+    <Property Name="CreadoPor" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ModificadoPor" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Correo" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Celular" Type="varchar" MaxLength="9" />
+    <Property Name="TipoUsuario" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="datetime" />
+    <Property Name="CreadoPor" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ModificadoPor" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK__REPORTE__IdUsuar__6FE99F9F">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="REPORTE" Type="Self.REPORTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="REPORTE">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SEGUIMIEN__IdSol__6A30C649">
+    <End Role="SOLICITUD" Type="Self.SOLICITUD" Multiplicity="1" />
+    <End Role="SEGUIMIENTO" Type="Self.SEGUIMIENTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SOLICITUD">
+        <PropertyRef Name="IdSolicitud" />
+      </Principal>
+      <Dependent Role="SEGUIMIENTO">
+        <PropertyRef Name="IdSolicitud" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SEGUIMIEN__IdTec__6B24EA82">
+    <End Role="TECNICO" Type="Self.TECNICO" Multiplicity="1" />
+    <End Role="SEGUIMIENTO" Type="Self.SEGUIMIENTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TECNICO">
+        <PropertyRef Name="IdTecnico" />
+      </Principal>
+      <Dependent Role="SEGUIMIENTO">
+        <PropertyRef Name="IdTecnico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SOLICITUD__IdCat__619B8048">
+    <End Role="CATEGORIA" Type="Self.CATEGORIA" Multiplicity="1" />
+    <End Role="SOLICITUD" Type="Self.SOLICITUD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORIA">
+        <PropertyRef Name="IdCategoria" />
+      </Principal>
+      <Dependent Role="SOLICITUD">
+        <PropertyRef Name="IdCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SOLICITUD__IdTec__60A75C0F">
+    <End Role="TECNICO" Type="Self.TECNICO" Multiplicity="1" />
+    <End Role="SOLICITUD" Type="Self.SOLICITUD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TECNICO">
+        <PropertyRef Name="IdTecnico" />
+      </Principal>
+      <Dependent Role="SOLICITUD">
+        <PropertyRef Name="IdTecnico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SOLICITUD__IdUsu__5FB337D6">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="SOLICITUD" Type="Self.SOLICITUD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="SOLICITUD">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SoporteTecnicoDBModelStoreContainer">
+    <EntitySet Name="CATEGORIA" EntityType="Self.CATEGORIA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="REPORTE" EntityType="Self.REPORTE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SEGUIMIENTO" EntityType="Self.SEGUIMIENTO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SOLICITUD" EntityType="Self.SOLICITUD" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TECNICO" EntityType="Self.TECNICO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USUARIO" EntityType="Self.USUARIO" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__REPORTE__IdUsuar__6FE99F9F" Association="Self.FK__REPORTE__IdUsuar__6FE99F9F">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="REPORTE" EntitySet="REPORTE" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SEGUIMIEN__IdSol__6A30C649" Association="Self.FK__SEGUIMIEN__IdSol__6A30C649">
+      <End Role="SOLICITUD" EntitySet="SOLICITUD" />
+      <End Role="SEGUIMIENTO" EntitySet="SEGUIMIENTO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SEGUIMIEN__IdTec__6B24EA82" Association="Self.FK__SEGUIMIEN__IdTec__6B24EA82">
+      <End Role="TECNICO" EntitySet="TECNICO" />
+      <End Role="SEGUIMIENTO" EntitySet="SEGUIMIENTO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SOLICITUD__IdCat__619B8048" Association="Self.FK__SOLICITUD__IdCat__619B8048">
+      <End Role="CATEGORIA" EntitySet="CATEGORIA" />
+      <End Role="SOLICITUD" EntitySet="SOLICITUD" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SOLICITUD__IdTec__60A75C0F" Association="Self.FK__SOLICITUD__IdTec__60A75C0F">
+      <End Role="TECNICO" EntitySet="TECNICO" />
+      <End Role="SOLICITUD" EntitySet="SOLICITUD" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SOLICITUD__IdUsu__5FB337D6" Association="Self.FK__SOLICITUD__IdUsu__5FB337D6">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="SOLICITUD" EntitySet="SOLICITUD" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

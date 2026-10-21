@@ -1,0 +1,24 @@
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Datos\bin\Debug\DeskIU.Datos.dll.config
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Datos\bin\Debug\DeskIU.Datos.dll
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Datos\bin\Debug\DeskIU.Datos.pdb
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Datos\bin\Debug\EntityFramework.dll
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Datos\bin\Debug\EntityFramework.xml
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Datos\obj\Debug\DeskIU.Datos.csproj.AssemblyReference.cache
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Datos\obj\Debug\DeskIU.Datos.csproj.CoreCompileInputs.cache
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Datos\obj\Debug\DeskIU.D.5D797ED4.Up2Date
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Datos\obj\Debug\DeskIU.Datos.dll
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Datos\obj\Debug\DeskIU.Datos.pdb
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Datos\bin\Debug\DeskIU.Datos.dll.config
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Datos\bin\Debug\DeskIU.Datos.dll
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Datos\bin\Debug\DeskIU.Datos.pdb
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Datos\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Datos\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Datos\obj\Debug\DeskIU.Datos.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Datos\obj\Debug\DeskIU.Datos.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Datos\obj\Debug\DeskIU.D.5D797ED4.Up2Date
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Datos\obj\Debug\DeskIU.Datos.dll
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Datos\obj\Debug\DeskIU.Datos.pdb

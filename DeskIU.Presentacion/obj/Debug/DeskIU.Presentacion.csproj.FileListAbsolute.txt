@@ -1,0 +1,42 @@
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\bin\Debug\DeskIU.Presentacion.exe.config
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\bin\Debug\DeskIU.Presentacion.exe
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\bin\Debug\DeskIU.Presentacion.pdb
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\bin\Debug\DeskIU.Datos.dll
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\bin\Debug\DeskIU.Negocio.dll
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\bin\Debug\EntityFramework.dll
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\bin\Debug\DeskIU.Datos.pdb
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\bin\Debug\DeskIU.Datos.dll.config
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\bin\Debug\DeskIU.Negocio.pdb
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\bin\Debug\EntityFramework.xml
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.csproj.AssemblyReference.cache
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.Forms.FrmMenu.resources
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.Forms.FrmSolicitud.resources
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.csproj.GenerateResource.cache
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\obj\Debug\DeskIU.P.FA3D76CE.Up2Date
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.exe
+C:\Users\hanil\Desktop\TF\Hito1_Grupo5\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.pdb
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\bin\Debug\DeskIU.Presentacion.exe.config
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\bin\Debug\DeskIU.Presentacion.exe
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\bin\Debug\DeskIU.Presentacion.pdb
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\bin\Debug\DeskIU.Datos.dll
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\bin\Debug\DeskIU.Negocio.dll
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\bin\Debug\DeskIU.Datos.pdb
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\bin\Debug\DeskIU.Datos.dll.config
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\bin\Debug\DeskIU.Negocio.pdb
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.exe.config
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.Forms.FrmMenu.resources
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.Forms.FrmSolicitud.resources
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\obj\Debug\DeskIU.P.FA3D76CE.Up2Date
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.exe
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.pdb
+C:\Users\ASUS\OneDrive - Universidad Peruana de Ciencias\ING SISTEMAS 4TO CICLO\FUNDAMENTOS SISTEMAS\TF_U20241F270_FINAL_FUNSI\TF_U20241F270\TF_U20241F270\DeskIU.Presentacion\obj\Debug\DeskIU.Presentacion.Forms.FrmReportes.resources
